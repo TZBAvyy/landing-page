@@ -4,3 +4,49 @@
     box-sizing: border-box;
     font-family: "Roboto";
 }
+
+ul {
+    list-style: none;
+}
+
+.main,.footer,.header {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call-to-action,.btn {
+    background-color: #3882F6;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: boldw;
+}
+
+.title {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote-text {
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
