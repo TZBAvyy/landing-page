@@ -42,17 +42,24 @@ ul {
 
 }
 
-
-.main {
-
+.main,.info,.quote {
+    height: 250px;
 }
 
-.left {
+.main {
+    display: flex;
+    align-items: center;
+}
 
+.left,.right {
+    width: 50%;
+    flex: auto;
 }
 
 .right {
-
+    background-color: gray;
+    text-align: center;
+    height: 100px;
 }
 
 .main-text {
@@ -67,7 +74,12 @@ ul {
 }
 
 .btn {
-
+    color:#F9FAF8;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin-top: 4px;
+    outline: none;
+    border: 0;
 }
 
 
