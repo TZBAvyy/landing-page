@@ -9,8 +9,8 @@ ul {
     list-style: none;
 }
 
-.header,.main,.footer,.info,.quote,.signup {
-    padding: 8px 64px;
+.header,.main,.footer,.signup {
+    padding: 8px 80px;
 }
 
 .header,.main,.footer {
@@ -42,13 +42,11 @@ ul {
 
 }
 
-.main,.info,.quote {
-    height: 250px;
-}
-
 .main {
     display: flex;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .left,.right {
@@ -60,6 +58,7 @@ ul {
     background-color: gray;
     text-align: center;
     height: 100px;
+    color:#E5E7EB;
 }
 
 .main-text {
@@ -82,26 +81,39 @@ ul {
     border: 0;
 }
 
+.info,.quote {
+    padding: 8px 150px;
+}
 
 .info {
-
+    padding-bottom: 80px;
 }
 
 .title {
     color:#1F2937;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
+    margin: 16px;
 }
 
 .items {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
 }
 
-.item {
-
+.item div {
+    border:2px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
 }
 
-.info-text {
+.item .info-text {
+    border: 0;
 }
 
 
