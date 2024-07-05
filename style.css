@@ -9,6 +9,10 @@ ul {
     list-style: none;
 }
 
+.header,.main,.footer,.info,.quote,.signup {
+    padding: 8px 64px;
+}
+
 .header,.main,.footer {
     background-color: #1F2937;
 }
@@ -18,13 +22,19 @@ ul {
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: boldw;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
 }
 
 .content {
@@ -51,7 +61,7 @@ ul {
 }
 
 .secondary-text,.info-text {
-    color: #E5E7EB;
+    color: #a5a6a7;
     font-size: 18px;
 }
 
@@ -79,7 +89,6 @@ ul {
 }
 
 .info-text {
-    color: gray;
 }
 
 
@@ -111,7 +120,8 @@ ul {
 }
 
 .footer {
-    
+    color:#a5a6a7;
+    text-align: center;
 }
 
 
