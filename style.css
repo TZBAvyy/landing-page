@@ -140,15 +140,20 @@ ul {
 
 
 .signup {
-
+    padding: 75px 150px;
 }
 
 .call-to-action {
-
+    display: flex;
+    gap: 30px;
+    color: #E5E7EB;
+    padding: 30px 80px;
+    border-radius: 4px;
+    justify-content: space-between;
 }
 
-.call-to-action.btn {
-
+.call-to-action .btn {
+    border: 2px solid #E5E7EB;
 }
 
 .footer {
